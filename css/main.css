@@ -1,0 +1,54 @@
+/******************/
+/* Type selectors */
+/******************/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+
+/****************/
+/* Id Selectors */
+/****************/
+
+#main-header {
+    margin: 0;
+    padding: 1rem;
+    background-color: #bbe9f1;
+}
+
+
+/*******************/
+/* Class Selectors */
+/*******************/
+
+.course-summary {
+    border: 1px solid #333;
+    background-color: #eee;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.featured {
+    background-color: #7da5e6;
+}
+
+
+/***************/
+/* Descendants */
+/***************/
+
+/* every img tag which is a descendant of an element with the class "course-summary" */
+.course-summary img {
+    max-height: 140px;
+    width: auto;
+}
+
